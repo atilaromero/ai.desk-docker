@@ -1,4 +1,4 @@
-FROM ipeddocker/iped:3.15.6
+FROM ipeddocker/iped:3.16.1-beta-APFS
 
 RUN apt-get update
 RUN apt-get install -y python3-pip
